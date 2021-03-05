@@ -1,0 +1,66 @@
+body {
+	background-color: rgb(12, 12, 12);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.side-text {
+	font-size: 4rem;
+	padding: 1rem 2rem;
+	margin: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	border-right: 2px solid white;
+}
+
+.main-text {
+	font-size: 10rem;
+	font-weight: bold;
+}
+
+.text-area {
+	display: flex;
+	align-items: center;
+}
+
+.root {
+	padding-right: 30rem;
+	position: relative;
+	margin: 0 0 8rem 6rem;
+}
+
+.root > div > svg {
+	position: absolute;
+	width: 8rem;
+	height: 8rem;
+}
+
+.root > div > svg:nth-child(2) {
+	margin-left: 8rem;
+}
+
+.root > div > svg:nth-child(3) {
+	margin-left: 16rem;
+}
+
+.style-0 {
+	fill: none;
+	stroke: #f70285;
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-miterlimit: 100;
+	stroke-dasharray: 0, 37, 129;
+}
+
+.style-1 {
+	fill: none;
+	stroke: #03f7eb;
+	stroke-width: 3;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-dasharray: 129, 37, 0;
+}
